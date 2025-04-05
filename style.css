@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.logo img{
+width: 200px;
+margin: 10px 0 10px 20px;
+}
+
+
+.banner{
+width: 100vw;
+
+margin-top: 10px;
+
+background-position: center;
+background-size: cover;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+h4{
+    color: #00945f;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.p-text{
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+.container1{
+    text-align: center;
+}
+.btn{
+  text-align: center;
+  background-color: orangered;
+  height: 30px;
+  width: 160px;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+    
+}
+#services{
+    width: 90%;
+    margin: auto;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 80px;
+    margin-bottom: 30px;
+    
+}
+h5{
+    color: #00945f;
+}
+.container1 p{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    padding-top: 10px;
+}
+.container1 a{
+    color: #91af50;
+    text-decoration: none;
+}
+#about{
+    width: 90%;
+    margin: auto;
+}
+.home_loans h5{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+.home_loans{
+    background-color: #00945f;
+   
+
+}
+.home_loans1{
+    background-color: #ebf7f5;
+}
+.home_loans1 p{
+    font-size: 12px;
+    line-height: 16px;
+   padding: 20px 30px ;
+    
+}
+
+
+#loan_officers{
+   
+    margin: auto;
+    
+}
+.about_loan{
+    margin-top: 20px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 80px;
+    margin: auto;
+    width: 900px;
+    
+    
+}
+
+
+.container2 .about_loan p{
+font-size: 12px;
+line-height: 16px;
+}
+.container2 .about_loan h4{
+    font-size: 12.5px;
+    line-height: 18px;
+}
+hr{
+    color: #00945f !important;
+margin-bottom: 10px;
+}
+footer{
+    width: 90%;
+    margin: auto;
+}
+footer img{
+    width: 100px;
+
+}
+footer p{
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 30px;
+}
+
+  
+
+@media only screen and (max-width: 600px) {
+   
+   
+    .container1{
+        display: block;
+    }
+    .container1 h5{
+        padding-top: 20px;
+    }
+    #loan_officers{
+        width: 90%;
+        margin: auto;
+        
+    }
+    
+    .container2{
+        
+       display: block;
+        width: 100%;
+     
+    }
+    
+    .container2 .about_loan p{
+        font-size: 12px;
+        line-height: 16px;
+        }
+        .container2 .about_loan h4{
+            font-size: 12.5px;
+            line-height: 18px;
+        }
+        img {
+        
+            width: 100%;
+            height: auto;
+           
+          }
+          .banner{
+            width: 100%;
+            height: auto;
+           
+            
+            }
+            .hide{
+                display: none;
+            }
+            .logo img{
+                width: 150px;
+                margin: 10px 0 10px 20px;
+                }
+               
+               
+        
+}
